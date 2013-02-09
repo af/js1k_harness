@@ -1,0 +1,22 @@
+{
+  "name": "js1k-harness",
+  "version": "0.0.0",
+  "description": "Set of tools for developing js1k submissions",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "js1k": "./bin/js1k.js"
+  },
+  "repository": "",
+  "keywords": [
+    "js1k"
+  ],
+  "author": "Aaron Franks",
+  "license": "BSD",
+  "dependencies": {
+    "commander": "~1.1.1",
+    "open": "0.0.3"
+  }
+}

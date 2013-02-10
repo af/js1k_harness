@@ -1,7 +1,7 @@
 {
   "name": "js1k-harness",
-  "version": "0.0.0",
-  "description": "Set of tools for developing js1k submissions",
+  "version": "0.0.1",
+  "description": "Tools for developing js1k entries",
   "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,7 @@
   "bin": {
     "js1k": "./bin/js1k.js"
   },
-  "repository": "",
+  "repository": "git://github.com/af/js1k_harness.git",
   "keywords": [
     "js1k"
   ],

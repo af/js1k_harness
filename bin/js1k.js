@@ -7,7 +7,7 @@ var js1k = require('../lib');
 cli.version(require('../package').version);
 
 cli.command('init')
-   .description('Begin a new js1k entry')
+   .description('Create a new js1k boilerplate javascript file')
    .usage('<filename>')
    .action(function(fileName) {
        if (typeof fileName !== 'string') fileName = 'js1k_entry.js';
@@ -16,7 +16,7 @@ cli.command('init')
 
 cli.command('serve')
    .usage('<filename>')
-   .description('Start a web server for the shim html and minified js')
+   .description('Serve your minified js in the js1k shim (on port 3001)')
    .action(function(fileName) {
        if (typeof fileName !== 'string') fileName = 'js1k_entry.js';
        js1k.serve(fileName);

@@ -23,12 +23,12 @@ cli.command('serve')
    });
 
 cli.command('build')
-   .description('Build and compress the current entry js file')
-   .action(js1k.build);
-
-cli.command('size')
-   .description('Output this size of the current entry js (in bytes)')
-   .action(js1k.size);
+   .usage('<filename>')
+   .description('Outputs a minified version of your javascript, suitable for submission')
+   .action(function(fileName) {
+       if (typeof fileName !== 'string') fileName = 'js1k_entry.js';
+       js1k.build(fileName);
+   });
 
 cli.command('rules')
    .description('Open the js1k rules page')

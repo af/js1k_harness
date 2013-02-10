@@ -5,7 +5,13 @@ A collection of command-line tools for developing [JS1K](http://js1k.com/2013-sp
 
 ## Installation
 
-    # TODO: upload to npm
+    npm install -g js1k-harness
+
+or
+
+    git clone git://github.com/af/js1k_harness.git
+    cd js1k-harness
+    npm link
 
 ## Usage
 

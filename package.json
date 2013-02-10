@@ -1,6 +1,6 @@
 {
   "name": "js1k-harness",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Tools for developing js1k entries",
   "main": "./lib/index.js",
   "scripts": {

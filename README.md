@@ -9,25 +9,25 @@ A collection of command-line tools for developing [JS1K](http://js1k.com/2013-sp
 
 ## Usage
 
-    Run the `js1k` executable. It provides three main subcommands:
+Run the `js1k` executable. It provides three main subcommands:
 
 ### js1k init <filename>
 
-    Creates a boilerplate js file that you can add your entry's code to.
+Creates a boilerplate js file that you can add your entry's code to.
 
 ### js1k serve <filename>
 
-    Starts a web server that serves your entry inside the js1k shim. This will
-    automatically minify your code for you (with uglify-js), and show the current
-    size of your entry in the browser. It reloads and minifies your javascript on
-    every request, so you don't need to restart the server when your code changes
-    (just refresh your browser).
+Starts a web server that serves your entry inside the js1k shim. This will
+automatically minify your code for you (with uglify-js), and show the current
+size of your entry in the browser. It reloads and minifies your javascript on
+every request, so you don't need to restart the server when your code changes
+(just refresh your browser).
 
 ### js1k build <filename>
 
-    Dumps your minified entry code to the console. You can submit this directly
-    to js1k, although you can probably still save a couple more bytes by editing
-    the output manually (removing `var`, etc).
+Dumps your minified entry code to the console. You can submit this directly
+to js1k, although you can probably still save a couple more bytes by editing
+the output manually (removing `var`, etc).
 
 
 ## Full command list (js1k -h)

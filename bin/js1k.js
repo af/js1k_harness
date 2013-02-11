@@ -38,4 +38,9 @@ cli.command('submit')
    .description('Open the js1k submission page')
    .action(js1k.launchSubmit);
 
-cli.parse(process.argv);
+// If no subcommand is entered, output the help:
+if (process.argv.length < 3) {
+   cli.help();
+} else {
+   cli.parse(process.argv);
+}

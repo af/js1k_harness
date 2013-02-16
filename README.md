@@ -54,3 +54,13 @@ Options:
   -h, --help     output usage information
   -V, --version  output the version number
 ```
+
+## Tips
+
+The byte savings you get from uglify-js can take you a long way, but beyond that there are a
+lot of clever manual tricks to slim your entry down even further. These articles have some
+great tips:
+
+* http://marijnhaverbeke.nl/js1k/
+* http://qfox.nl/notes/111
+* http://benalman.com/news/2010/08/organ1k-js1k-contest-entry/
